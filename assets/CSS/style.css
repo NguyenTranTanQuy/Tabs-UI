@@ -28,7 +28,6 @@ body {
   flex: 1;
   font-size: 20px;
   font-weight: 500;
-  width: calc(100% / 4);
   height: var(--tag-height);
   line-height: var(--tag-height);
   text-align: center;

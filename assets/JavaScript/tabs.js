@@ -29,6 +29,9 @@ const tabActive = $(".tab-item.active");
 const line = $(".line");
 const content = $(".content");
 
+line.style.left = tabActive.offsetLeft + "px";
+line.style.width = tabActive.offsetWidth + "px";
+
 const run = () => {
   handleTab();
   getContent();
